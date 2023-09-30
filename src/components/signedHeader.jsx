@@ -7,7 +7,8 @@ export default function SignedHeader() {
     <div className="w-56 text-right top-16">
       <Menu as="div" className="relative inline-block text-left">
         <div>
-          <Menu.Button className="inline-flex justify-center w-full p-3 text-sm font-medium text-white bg-black rounded-md bg-opacity-20 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
+          <Menu.Button className="inline-flex items-center justify-center w-full gap-2 p-3 font-medium text-white bg-black rounded-md text-md bg-opacity-20 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
+            <p>Jorge</p>
             <BiSolidUser className="" aria-hidden="true" />
           </Menu.Button>
         </div>

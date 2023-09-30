@@ -99,7 +99,7 @@ export default function SignUp() {
                         className="inline-flex justify-center px-4 py-4 text-sm font-medium text-[#00FFFF] bg-zinc-950 rounded-lg "
                         onClick={closeModal}
                       >
-                        Inicia sesión
+                        Registrarme
                       </button>
                     </form>
                   </div>
