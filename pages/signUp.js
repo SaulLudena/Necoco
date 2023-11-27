@@ -1,5 +1,5 @@
 import Head from "next/head";
-import DedicatedLogin from "../src/components/dedicatedLogin";
+import DedidateSignUp from "../src/components/dedicatedSignUp";
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
 
       <div className="h-screen  bg-[#ebebeb]">
         <div className="grid grid-cols-12  h-[100%] ">
-          <DedicatedLogin />
+          <DedidateSignUp />
         </div>
       </div>
     </>

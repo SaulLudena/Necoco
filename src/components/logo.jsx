@@ -1,16 +1,16 @@
 import Image from "next/image";
 import SrcLogo from "../../public/logo.png";
+import Link from "next/link";
 export default function Logo() {
   return (
-    <a href="" className="flex items-center p-3 rounded-lg bg-zinc-900">
-      <p>Necoco</p>
+    <Link href="/mainFeed" className="flex items-center rounded-lg ">
       <Image
         src={SrcLogo}
         alt="Necoco logo"
-        width={30}
-        height={30}
+        width={40}
+        height={40}
         className="rounded-lg"
       />
-    </a>
+    </Link>
   );
 }
